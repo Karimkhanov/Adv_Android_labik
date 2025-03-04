@@ -27,12 +27,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Pick Image from Gallery"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/dark_blue"/>
 
     <Button
         android:id="@+id/btnShareInstagram"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Share to Instagram Stories"/>
+        android:text="Share to Instagram Stories"
+        android:backgroundTint="@color/dark_blue"/>
 
 </LinearLayout>

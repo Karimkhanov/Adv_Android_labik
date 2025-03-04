@@ -6,39 +6,36 @@
     android:gravity="center"
     android:padding="16dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Android Development Lab"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="32dp"/>
 
     <Button
         android:id="@+id/btnIntents"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Intents and Deep Linking"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/dark_blue"/>
 
     <Button
         android:id="@+id/btnService"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Foreground Service"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/dark_blue"/>
 
     <Button
         android:id="@+id/btnBroadcast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="BroadcastReceiver"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/dark_blue"/>
 
     <Button
         android:id="@+id/btnContentProvider"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Content Provider"/>
+        android:text="Content Provider"
+        android:backgroundTint="@color/dark_blue"/>
 
 </LinearLayout>

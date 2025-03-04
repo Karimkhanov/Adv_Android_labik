@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dynamic Music Player"
+        android:text="Music Player"
         android:textSize="20sp"
         android:textStyle="bold"
         android:gravity="center"
@@ -19,7 +19,7 @@
         android:id="@+id/tvTrackCount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Loading tracks..."
+        android:text="Loading..."
         android:textSize="14sp"
         android:gravity="center"
         android:layout_marginBottom="8dp"/>
@@ -34,7 +34,7 @@
         android:id="@+id/tvCurrentTrack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="No track playing"
+        android:text="No song playing"
         android:textSize="16sp"
         android:gravity="center"
         android:layout_marginBottom="8dp"/>
@@ -63,7 +63,8 @@
             android:text="Previous"
             android:drawableTop="@drawable/ic_previous"
             android:padding="8dp"
-            android:enabled="false"/>
+            android:enabled="false"
+            android:backgroundTint="@color/gray"/>
 
         <Button
             android:id="@+id/btnStartMusic"
@@ -73,7 +74,8 @@
             android:text="Play"
             android:drawableTop="@drawable/ic_play"
             android:padding="8dp"
-            android:enabled="false"/>
+            android:enabled="false"
+            android:backgroundTint="@color/gray"/>
 
 
         <Button
@@ -84,7 +86,8 @@
             android:text="Next"
             android:drawableTop="@drawable/ic_next"
             android:padding="8dp"
-            android:enabled="false"/>
+            android:enabled="false"
+            android:backgroundTint="@color/gray"/>
     </LinearLayout>
 
     <LinearLayout
@@ -100,6 +103,7 @@
             android:layout_weight="1"
             android:text="Refresh"
             android:drawableStart="@drawable/ic_refresh"
-            android:paddingStart="16dp"/>
+            android:paddingStart="16dp"
+            android:backgroundTint="@color/dark_blue"/>
     </LinearLayout>
 </LinearLayout>
